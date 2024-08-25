@@ -37,8 +37,8 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
                 );
 
                 console.log("Response: [" + response.data.choices[0].message.content + "]\n");
-                console.log("WAIT 15 DETIK \n\n");
-                await delay(15000);
+                console.log("WAIT 10 DETIK \n\n");
+                await delay(10000);
             } catch (postError) {
                 console.error("Error during axios post: ", postError);
             }
