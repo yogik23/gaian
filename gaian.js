@@ -66,8 +66,6 @@ const sendTelegramMessage = async (message) => {
                     await sendTelegramMessage(`*🤖Node Berhenti Silahkan Restart Node Gaiamu*`);
                     break; 
                 }
-
-                await sendTelegramMessage(`${postError.message}`);
             }
         }
     } catch (error) {
